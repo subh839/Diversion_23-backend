@@ -6,12 +6,11 @@ const pemSchema = mongoose.Schema({
   email: String,
   userName: String,
   passWord: String,
-  latitude: Number,
-  longitude: Number,
-  distance: Number,
   city: String,
   address: String,
   occupation: String,
+  gender: String,
+  workexperience:String,
   selectedFile: String
 });
 
